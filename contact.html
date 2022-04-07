@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="stylesheet" href="style.css">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
+            integrity="sha512-koDUjGvRZrcni2jJFT9I3VRYY0PWNKtr1Wj9U36eLhcFgBm46KV11yTi4p2H3HwUMirxZ+dMpKeUuRjYOFjeDQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css"
+            integrity="sha512-TVNZcv0J8VIKwc9PuINGUaXpAtIvvfc8bO1frc8Xl7N4mWxH8mCCjubLdlhi6xYJKFyZrYEqEXQkoiOvglmtZA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"
+            integrity="sha512-LSynsHcISjg2FJcfjq+IqrgsAAdo8A6t35zA/Fys/mZWuaiTS9a8oB5IXFW15oAJF/9KA5OWUx8RwWd9I4RVrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"
+            integrity="sha512-zCHGovd9kHtyOdCLYmXApVFPtXQjZNyjHGU6DKPKR1HnhiSnVc71r1x7bpahdGw7mOKbz6oZ1k7/gbfRNp50ag=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Contact</title>
+        <link rel="Icon" href="logo1.png">
+    </head>
+    <body>
+
+
+
+      <nav class="orange lighten-1" style="position: fixed; z-index: 3;">
+        <div class="nav-wrapper container" style="z-index:4">
+          <a href="index.html" class="brand-logo"><img class="minista" src="logo1.png" width="80" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            
+            <li class="minista"><a href="index.html">Accueiil</a></li>
+            <li><a class='dropdown-trigger' href='#' data-target='dropdown2'><i class="material-icons right">arrow_drop_down</i>Département</a>
+              <ul id="dropdown2" class="dropdown-content">
+                <li class="minista"><a href="culture.html">Culture</a></li>
+                <li class="minista"><a href="tourisme.html">Tourisme</a></li>
+                <li class="minista"><a href="Artisanat.html">Artisanat</a></li>
+              </ul>
+            </li>
+            <li class="minista"><a href="blog.html">Blog</a></li>
+            <li class="minista"><a href="gallery.html">Gallerie</a></li>
+            <li class="minista"><a href="contact.html">Contact</a></li>
+            <li class="minista">
+              <form style="display: flex; margin-top: 10px;">
+                <input  type="search" placeholder="Search" >
+                <a href="erreur.html"><i class="material-icons  transparent">search</i></a>
+              </form>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+    
+      <ul class="sidenav orange lighten-1" id="mobile-demo">
+        <a href="index.html" class="brand-logo"><img src="logo1.png" width="80" alt=""></a>
+        <li class="minista"><a href="index.html" class="white-text">Accueil</a></li>
+            <li class="minista"><a class='dropdown-trigger white-text' href='#' data-target='dropdown1'><i class="material-icons right white-text">arrow_drop_down</i>Département</a>
+              <ul id="dropdown1" class="dropdown-content orange lighten-1">
+                <li><a href="culture.html" class="white-text">Culture</a></li>
+                <li><a href="tourisme.html"class="white-text">Tourisme</a></li>
+                <li><a href="Artisanat.html"class="white-text">Artisanat</a></li>
+              </ul>
+            </li>
+            <li class="minista"><a href="blog.html"class="white-text">Blog</a></li>
+            <li class="minista"><a href="gallery.html"class="white-text">Gallerie</a></li>
+            <li class="minista"><a href="contact.html"class="white-text">Contact</a></li>
+            <li>
+              <form style="display: flex; margin-top: 10px;">
+                <input  type="search" placeholder="Search" >
+                <a href="erreur.html"><i class="material-icons btn  transparent white-text" style="margin: 0;">
+                  search
+                  </i></a>
+              </form>
+            </li>
+      </ul>
+
+
+        
+
+
+        
+        <div class="container" style="padding-top: 150px;">
+            <div class="row">
+                <div class="col s12 m7">
+                  <h1>Contactez Nous</h1>
+                    <div><p><i class="fa-solid fa-location-dot small" style="margin-right: 20px;"></i> Avenue de la Mairie NB-10</p></div>
+                    <div><p><i class="fa-solid fa-phone small" style="margin-right: 20px;"></i>+227 96 98 32 23 / 20 73 65 23</p></div>
+                    <div><p><i class="fa-solid fa-envelope small" style="margin-right: 20px;"></i> tourisme.gouv@yahoo.fr</p></div>
+                    <div><p><i class="fa-solid fa-envelopes-bulk small" style="margin-right: 20px;"></i> BP: 351</p></div>
+                    <div>
+                        <ul style="display: flex;">
+                            <li style="margin-right: 20px;"><a href="contact.html/eydhreudhsverhjdk"><i class="fa-brands fa-facebook small" style="color: #395997;"></i></a></li>
+                            <li style="margin-right: 20px;"><a href=""><i class="fa-brands fa-twitter small" style="color: #05ACEC;"></i></a></li>
+                            <li style="margin-right: 20px;"><a href="https://www.flickr.com/photos/163736669@N02/" target="_blank"><i class="fa-brands fa-flickr small" style="color: #FF0184;"></i></a></li>
+                            <li style="margin-right: 20px;"><a href="https://www.youtube.com/channel/UC1vtw91digZlX3MTB1VqZ7A"><i class="fa-brands fa-youtube small" style="color: #BB0200;"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col s12 m5 z-depth-5">
+                    <form class="col m8 offset-m2 s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="form-input">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="objet" type="text">
+                                <label for="objet">Objet</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        
+                        <div class="divider"></div>
+                        <div class="row">
+                            <div class="col m12">
+                                <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="green  text-light " style="width: 100%;">
+    
+          <div class="container">
+            
+            <div class="row">
+              <div class="col">
+                <img src="logo1.png" alt="">
+              </div>
+              <div class="col">
+                <ul  style="list-style-type: none;">
+                  <li style="font-weight: bold; font-size: 1.5em; margin-bottom: 10px;">Ministère</li>
+                  <li class=""><a href="" style="text-decoration: none; color: white;">Mot du Ministre</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">Organisation</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">Partenaires</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">Documents</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul  style="list-style-type: none;">
+                  <li style="font-weight: bold; font-size: 1.5em; margin-bottom: 10px;">Domaines d'activité</li>
+                  <li><a href="" style="text-decoration: none; color: white;">Arts</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">Artisant</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">CNPT</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">Safem</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul  style="list-style-type: none;">
+                  <li style="font-weight: #FF0184 bold; font-size: 1.5em; margin-bottom: 10px;">Nous contacter</li>
+                  <li><a href="" style="text-decoration: none; color: white;">Avenue de la Mairie</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">+227 96 98 32 23</a></li>
+                  <li><a href="" style="text-decoration: none; color: white;">tourisme.gouv@yahoo.fr</a></li>
+                </ul>
+                <ul style="list-style-type: none; display: flex;">
+                  <li><a href="" style="text-decoration: none;"><i class="fa-brands fa-facebook medium"></i></a></li>
+                  <li><a href="" style="text-decoration: none;"><i class="fa-brands fa-twitter medium"></i></a></li>
+                  <li><a href="" style="text-decoration: none;"><i class="fa-brands fa-flickr medium"style="color: #FF0184;;"></i></a></li>
+                  <li><a href="" style="text-decoration: none;"><i class="fa-brands fa-youtube medium"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        
+          <div class="row black white-text" style=" margin-bottom: 0;">
+            <div class="row" style="display: flex; justify-content: space-around; ">
+              <p>© 2022 Ministre du tourisme de de l'artisanat et de la culture Tous les droit sont réservés. Développé avec ❤️ à <a href="https://www.codeloccol.org/">Codeloccol</a> </p>
+              <p>Supervisé et Hebergé par <img src="logo-ansi.png" width="100" alt="" style="position: static;"> </p>
+            </div>
+          </div>
+            </div>
+          </div>
+        </footer>
+    
+    </body>
+
+
+
+
+
+
+
+
+
+    <style>
+      .minista
+    {
+        transition: 1s;
+    }
+    
+    .minista:hover
+    {
+        transform: scale(1.3);
+        z-index: 2;
+    }
+    </style>
+ 
+
+
+
+
+
+    <style>
+        /* label color */
+.input-field label {
+ color: #444;
+}
+/* label focus color */
+.input-field input:focus + label,
+{
+ color: #444;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #444;
+ box-shadow: 0 1px 0 0 #444;
+}
+/* valid color */
+.input-field input[type=text].valid {
+ border-bottom: 1px solid #444;
+ box-shadow: 0 1px 0 0 #444;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+ border-bottom: 1px solid #444;
+ box-shadow: 0 1px 0 0 #444;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #444;
+}
+    </style>
+
+
+
+
+<script>
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+    
+    
+      $(document).ready(function(){
+        $('.tabs').tabs();
+      });
+    
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems);
+      });
+    
+    </script>
+</html>
